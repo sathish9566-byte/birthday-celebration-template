@@ -13,19 +13,17 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[ DIVYA ],
 
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+I know I’m mean to you sometimes and I scold you a lot, but honestly Divi
+you’re the one person I’d never leave behind.
+Sorry for being a jerk lately and hurting your feelings. You’re still my favorite (don't tell Laya lol).
+you’re still my #1 favorite person. Love ya.
+best sibling..
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— [DIVYA]`;
 
   // Handle page transitions
   useEffect(() => {
